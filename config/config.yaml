@@ -1,0 +1,5 @@
+databases:
+  - name: "debian"
+    type: "pgsql"
+    options:
+      source: "host=localhost port=5432 user=clair dbname=clair sslmode=disable"
